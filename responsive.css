@@ -1,0 +1,98 @@
+@media (max-width: 767.98px) { 
+    .container {
+        width: 350px;
+    }
+    .hero-image{
+        height: 200px;
+    }
+    .hero-image .sub-image:last-child {
+        height: 200px;
+        width: 100px;
+        right: 0;
+    }
+    .hero-image .sub-image:first-child {
+        height: 250px;
+        width: 200px;
+        left: 0px;
+    }
+    .image-char {
+        height: 80px;
+        width: 80px;
+    }
+    .image-char-one {
+        left: 10px;
+        top: 50px;
+    }
+    .image-char-three {
+        right: 10px;
+        top: 50px;
+    }
+    .komprome-head{
+        font-size: 40px !important;
+    }
+    .komprome-semi{
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+    .komprome-info{
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+    .komprome-category{
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    #about{
+        padding-bottom: 50px;
+        margin-bottom: 100px;
+    }
+    .service-content {
+        flex-direction: column;
+    }
+    .service-content-image {
+        height: 200px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .service-content-image img {
+        height: 100px;
+        width: 150px;
+    }
+    .service-content-word {
+        width: 100%;
+    }
+    .service-content__reverse{
+        flex-direction: column-reverse
+    }
+    .wrapper-paket-word{
+        padding-top: 50px;
+    }
+    .paket-word {
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 100%
+    }
+    .paket-content{
+        margin-top: 100px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .container {
+        width: 1170px;
+    }
+}

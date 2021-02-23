@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navigation{
+    display: flex;
+}
+.navigation ul{
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo{
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    color: #818181;
+    font-weight: bold;
+    transition: color .3s ease;
+    text-decoration: none;
+}
+#hero{
+    perspective: 35px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+    background-image: url(https://makaofficial.com/assets/images/karya/bg-karya.gif);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hero-word{
+    text-align: center;
+    max-width: 720px;
+    margin: 30px auto;
+}
+.hero-image{
+    height: 500px;
+    display: flex;
+}
+.wrapper-hero-main-image{
+    background-image: url(https://makaofficial.com/assets/images/whatwedo-bg-webdev.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image .main-image{
+    height: 70%;
+    width: 70%;
+    z-index: 2;
+    position: relative;
+}
+.hero-image .sub-image:first-child{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    z-index: 1;
+    left: 200px;
+}
+.hero-image .sub-image:last-child{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    z-index: 1;
+    right: 200px;
+}
+.komprome-head{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.komprome-semi{
+    margin-bottom: 10px;
+}
+#about {
+    position: relative;
+    margin-bottom: 150px;
+    overflow: hidden;
+
+}
+.about-word{
+    text-align: center;
+}
+.about-word .komprome-category{
+    max-width: 720px;
+    margin: 30px auto;
+ }
+.image-char{
+    position: absolute;
+    height: 175px;
+    overflow: hidden;
+    width: 175px;
+}
+.image-char-one{
+    left: 10px;
+    top: 0;
+}
+.image-char-two{
+    left: 30px;
+    bottom: 0;
+}
+.image-char-three{
+    right: 10px;
+    top: 0;
+}
+.image-char-four{
+    right: 30px;
+    bottom: 0;
+}
+.service-word{
+    text-align: center;
+}
+.service-content{
+    display: flex;
+    margin-bottom: 50px;
+}
+.service-content-image{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(https://makaofficial.com/assets/images/whatwedo-bg-webdev.svg);
+}
+.service-content-image img{
+    height: 200px;
+    width: 250px;
+}
+.service-content-image--web .service--web{
+    transform: rotate(357deg);
+}
+.service-content-image--web .service--android{
+    transform: rotate(357deg);
+}
+.service-content-word{
+    width: 50%;
+}
+#paket{
+}
+.wrapper-paket-word{
+    background-image: url(https://makaofficial.com/assets/images/bg-intermezo.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    padding-top: 200px;
+
+}
+.paket-word{
+    display: flex;
+    justify-content: space-around;
+}
+.paket-word-bublee{
+    width: 300px
+}
+.paket-word-bublee-word__left{
+    position: absolute;
+    top: 20%;
+    transform: rotate(-2deg);
+    left: 15%;
+    text-align: left;
+}
+.paket-word-bublee-word__right{
+    position: absolute;
+    top: 20%;
+    transform: rotate(2deg);
+    right: 15%;
+    text-align: right;
+}
+.paket-content{
+    margin-top: 200px;
+    text-align: center;
+    background-image: url(https://makaofficial.com/assets/images/karya-bg.svg);
+    min-height: 100vh;
+    background-position: bottom center;
+    background-size: 1000px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+}
+.paket-content .komprome-head{
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+.contact-form{
+    margin: 0 auto;
+    width: 50%;
+    background-image: url(https://makaofficial.com/assets/images/contact-bg-left.svg), url(https://makaofficial.com/assets/images/contact-bg-right.svg);
+    background-position: bottom -100px right -100px, top -100px left -100px;
+    background-size: 300px, 300px;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 15px;
+    box-shadow: 0 8px 18px 0 rgb(0 0 0 / 18%);
+    transition: box-shadow .5s ease-out;
+    -webkit-transition: box-shadow .5s ease-out;
+}
+#contact{
+    margin-bottom: 100px;
+}
+.contact-form h1, .contact-form h3 {
+    text-align: center;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form hr{
+    width: 50px;
+    height: 5px;
+    margin: 30px auto;
+    background: #a7a7a7;
+    border: #a7a7a7;
+}
+.control-label {
+    position: relative;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: #393e46;
+    letter-spacing: 1px;
+    font-weight: 300;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+input.form-control:focus {
+    outline: none;
+}
+input.form-control {
+    position: relative;
+    height: 40px;
+    background-color: transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 0;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    box-shadow: rgb(0 0 0 / 0%) 0px 2px 4px;
+    text-transform: none;
+    color: #555;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    display: block;
+    width: 100%;    
+    padding: 6px 12px;
+    font-weight: 700;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+
+.contact-form .button-submit{
+    height: 50px;
+    color: white;
+    border: none;
+    background: #85afb7;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact-form .button-submit:hover{
+    background: #79969b;
+}
+
+/* animation */
